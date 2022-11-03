@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".white.Game"
+    android:background="@drawable/img_1">
+
+    <TextView
+        android:id="@+id/randInst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:fontFamily="@font/merri"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_margin="12dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="12dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/timeRan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Timer"
+            android:fontFamily="@font/merri"
+            android:textSize="32sp"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/running"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:fontFamily="@font/merri"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Gyes"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:text="Yes"
+        app:cornerRadius="20dp"
+        android:backgroundTint="@color/green"
+        />
+    <Button
+        android:id="@+id/Gno"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:text="No"
+        app:cornerRadius="20dp"
+        android:backgroundTint="@color/green"
+        />
+    <Button
+        android:id="@+id/Ryes"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:text="Yes"
+        app:cornerRadius="20dp"
+        android:backgroundTint="@color/red"
+        />
+    <Button
+        android:id="@+id/Rno"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:text="No"
+        android:backgroundTint="@color/red"
+        app:cornerRadius="20dp"
+        />
+
+    <Button
+        android:id="@+id/Pyes"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/purplish"
+        app:cornerRadius="20dp"
+        android:text="Yes" />
+
+    <Button
+        android:id="@+id/Pno"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:text="No"
+        app:cornerRadius="20dp"
+        android:backgroundTint="@color/purplish"
+        />
+
+</LinearLayout>
